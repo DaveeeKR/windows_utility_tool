@@ -10,3 +10,5 @@ Future plans:
 - Add support for more os (with detecting which os is currently installed)
 - Checkboxes for bloatware to select wich one needs to be deleted
 - Add feature for installing soft such as discord, steam etc.
+
+For safety reason i will not upload compiled .exe file :)
