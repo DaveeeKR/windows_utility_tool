@@ -4,16 +4,6 @@ import ctypes
 import time
 import logging
 
-class LogHandler(logging.Handler):
-    def __init__ (self, textbox):
-        super().__init__()
-        self.textbox = textbox
-    
-    def emit(self, record):
-        logentry = self.format(record)
-        self.textbox.insert("end", logentry + "\n")
-        self.textbox.see("end")
-
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
 
 def is_admin():
